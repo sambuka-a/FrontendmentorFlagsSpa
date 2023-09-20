@@ -29,12 +29,19 @@ transition: background-color 0.3s ease-in, color 0.3s ease-in;
   background-color: var(--white);
 }
 
+.searchInput input,
+.button,
+.searchResults,
+#continent {
+  background-color: var(--white);
+}
+
 .button {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px;
 }
 
 .resultsList:hover {
-  background-color: var(--DarkGray)
+  background-color: var(--veryLightGray)
 }
 
 .button:hover {
