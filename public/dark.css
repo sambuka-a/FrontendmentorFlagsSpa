@@ -1,0 +1,50 @@
+:root {
+  --darkBlue: hsl(209, 23%, 22%);
+  --veryDarkBlue: hsl(207, 26%, 17%);
+  --veryDarkGrey: hsl(200, 15%, 8%);
+  --DarkGray: hsl(0, 0%, 52%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  
+  --FW-light: 300;
+  --FW-regular: 600;
+  --FW-bold: 800;
+  
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  }
+
+body {
+color: var(--veryLightGray);
+background-color: var(--veryDarkBlue);
+transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.header {
+  background-color: var(--darkBlue);
+  box-shadow: hsl(0, 0%, 52%) 0px 5px 15px;
+}
+
+.countryCard {
+  background-color: var(--darkBlue);
+}
+
+.searchInput input,
+.button,
+.searchResults,
+#continent {
+  background-color: var(--darkBlue);
+}
+
+.resultsList:hover {
+  background-color: var(--veryDarkBlue)
+}
+
+.button {
+  color: var(--white);
+  box-shadow: hsl(0, 0%, 52%) 0px 2px 4px;
+}
+
+.button:hover {
+  box-shadow: hsl(0, 0%, 52%) 0px 1px 2px;
+}
