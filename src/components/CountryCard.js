@@ -8,8 +8,6 @@ const CountryCard = ({countries, showDetails, setShowDetails}) => {
       country?.cca3.toLowerCase() === showDetails.toLowerCase()
     )
 
-    console.log(countryToshow);
-
   return (
     <div className='countryInfo'>
       <section className='cardHeader'>
